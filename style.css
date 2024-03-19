@@ -1,0 +1,368 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    
+}
+.header{
+    height: 300px;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+   
+}
+.header p{
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.text-side1{
+    width: 50%;
+    background-color: rgba(97, 166, 180,0.7);
+    text-align: end;
+}
+.text-side2{
+    width: 50%;
+    background-color: rgba(19, 125, 151, 0.7);
+    text-align: start;
+}
+hr{
+    margin: 0px;
+    opacity: 0.7;
+    height: 15px;
+    background-color: white;
+}
+.list{
+    width: 40%;
+    margin-left: 40px;
+    margin-top: 50px;
+
+}
+.list ul li{
+    list-style-type: none;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+.line{
+    height: 50px;
+    width: 10px;
+    background-color: crimson;
+    margin-right: 30px;
+}
+.list-text{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 7px 12px;
+    opacity: 0.7;
+    font-size: 30px;
+}
+
+
+.blue-box{
+    height: 250px;
+    background-color: rgb(97, 166, 180);
+    opacity: 0.9;
+    margin-top: 200px;
+}
+.blue-box span{
+    display: block;
+    color: white;
+    font-size: 50px;
+    margin: 10px 50px;
+}
+.h-text1{
+    margin-top: 20px;
+}
+.h-text2{
+    font-weight: 900;
+}
+.footer{
+    background-color: black;
+    opacity: 0.7;
+    /* position: relative; */
+    /* margin-top: 80px; */
+    /* height: 82vh; */
+    height: 600px;
+}
+.list2{
+    
+    background-color: black;
+    opacity: 0.7;
+    position: relative;
+    margin-left: 40px;
+    top: 100px;
+    
+}
+.list2 li{
+    list-style-type: none;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    margin-top: 80px;
+
+}
+.lorem{
+    width: 30%;
+    color: white;
+    font-size: 20px;
+    margin: 20px 30px;
+}
+.aside-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    background-color: crimson;
+    color: white;
+    float: right;
+    position: relative;
+    z-index: 4;
+    opacity: 0.7;
+    margin-right: 50px;
+    height: 1330px;
+    
+}
+.hey{
+    /* margin-top: 10px; */
+    padding-top: 10px;
+    font-size: 50px;
+}
+.trend{
+    font-size: 18px;
+    margin-bottom: 270px;
+    
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    padding-top:250px;
+}
+.brand{
+    font-size: 30px;
+    padding-top: 0px;
+}
+.partner{
+    margin-bottom: 60px;
+    font-size: 10px;
+    margin-bottom: 170px;
+}
+.qr-img{
+    width: 120px;
+    height: 120px;
+    padding-bottom: 50px;
+}
+.website{
+    margin-bottom: 100px;
+}
+.address-con{
+    float: right;
+    background-color: rgb(97, 166, 180);
+    width: 55%;
+    position: relative;
+    /* top: -103px; */
+    height: 160px;
+    /* margin-top: 15px; */
+    
+}
+.address-content{
+ 
+    text-align: end;
+    margin-right: 15%;
+    margin-top: 8%;
+    justify-content: center;
+    align-items: center;
+
+}
+.address-con p{
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+}
+.address-con p b{
+     font-weight: 900;
+     font-size: 20px;
+     
+}
+@media only screen and (max-width: 600px) {
+    .header{
+        height: 50px;
+        background-color: rgb(97, 166, 180);
+        opacity: 0.9;
+       
+    }
+    .header p{
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    .text-side1{
+        width: 50%;
+        background-color: rgb(97, 166, 180);
+        text-align: end;
+    }
+    .text-side2{
+        width: 50%;
+        background-color: rgb(53, 82, 89);
+        text-align: start;
+    }
+    
+    hr{
+        height: 2.5px;
+    }
+    
+    .list{
+        width: 60%;
+    
+    }
+    .list ul li{
+        list-style-type: none;
+        margin-bottom: 5px;
+        display: flex;
+        align-items: center;
+    }
+    .line{
+        height: 8px;
+        width: 5px;
+        background-color: crimson;
+        margin-right: 10px;
+    }
+    .list-text{
+        background-color: black;
+        color: white;
+        height: 8px;
+        text-align: center;
+        padding: 1px 2px;
+        opacity: 0.7;
+        font-size: 5px;
+    }
+    .blue-box{
+        height: 30px;
+        background-color: rgb(97, 166, 180);
+        opacity: 0.9;
+        align-items: center;
+        justify-content: center;
+    }
+    .blue-box span{
+        display: block;
+        color: white;
+        font-size: 10px;
+        margin: 5px 10px;
+    }
+    
+    .h-text2{
+        font-weight: 600;
+        
+    }
+    .footer{
+        background-color: black;
+        opacity: 0.7;
+        position: relative;
+        height:100vh;
+        top: -40px;
+    }
+    .list2{
+        position: relative;
+        top: 20px;
+
+    }
+    .list2 li{
+        list-style-type: none;
+        color: white;
+        font-size:5px;
+        display: flex;
+        align-items: center;
+        font-weight: 300;
+        margin-top: 20px;
+    
+    }
+    .lorem{
+        width: 40%;
+        color: white;
+        font-size: 5px;
+        margin: 2.5px 5px;
+        margin-bottom: 5px;
+
+    }
+    .address-con{
+        float: right;
+        background-color: rgb(97, 166, 180);
+        width: 50%;
+        position: relative;
+        top: -10px;
+        height: 50px;
+        
+    }
+    .address-content{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        margin-right: 4px;
+    
+    }
+    .address-con p{
+        font-size: 2.5px;
+        color: white;
+        margin-top: 0px;
+    }
+    .address-con p b{
+         font-weight: 100;
+         font-size: 4px;
+         
+    }
+    .aside-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        background-color: crimson;
+        color: white;
+        float: right;
+        position: relative;
+        z-index: 4;
+        opacity: 0.7;
+        margin-right: 8px;
+        
+    }
+    .hey{
+        margin-top: 5px;
+        font-size: 8px;
+        margin-top: 20px;
+    }
+    .trend{
+        font-size: 4px;
+        margin-bottom: 35px;
+    }
+    .logo{
+        width: 20px;
+        height: 20px;
+    }
+    .brand{
+        font-size: 5px;
+    }
+    .partner{
+        
+        font-size: 2.5px;
+        margin-bottom: 22px;
+    }
+    .qr-img{
+        width: 20px;
+        height: 20px;
+    }
+    .website{
+        font-size: 3px;
+        margin-bottom: 5px;
+    }
+}
